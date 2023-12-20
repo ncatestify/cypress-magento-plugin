@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "types": ["cypress", "../src/"],
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts", "../../e2e.ts"],
+  "extends": "../tsconfig.json"
+}
