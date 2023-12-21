@@ -22,7 +22,7 @@ $ npm install
 ## Setup
 
 ### BaseUrl
-Update BaseUrl in cypress.config.ts.
+Update BaseUrl in cypress.config.ts. The BaseUrl should **not** end with the "/".
 
 `baseUrl: 'https://testify.team'`
 
