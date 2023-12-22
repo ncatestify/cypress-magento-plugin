@@ -10,7 +10,7 @@ This project is inspired by elgentos/magento2-cypress-testing-suite: https://git
 
 Clone repository.
 
-`$ git clone git@github.com:ncatestify/cypress-io-magento-luma.git`
+`$ git clone git@github.com:ncatestify/cypress-magento-plugin.git`
 
 Navigate into project folder and install dependencies.
 
@@ -21,7 +21,8 @@ $ npm install
 
 ## Setup
 
-Update BaseUrl in cypress.config.ts.
+### BaseUrl
+Update BaseUrl in cypress.config.ts. The BaseUrl should **not** end with the "/".
 
 `baseUrl: 'https://testify.team'`
 
@@ -29,6 +30,7 @@ or use
 
 `$ CYPRESS_baseUrl=[your baseUrl] npx cypress run/open`
 
+### Selectors
 Update selectors under cypress/fixtures/selectors.
 
 ## Run
