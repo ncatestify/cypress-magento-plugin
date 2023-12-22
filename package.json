@@ -1,5 +1,5 @@
 {
-  "name": "cypressio-magento-luma",
+  "name": "cypressio-ncatestify-magento",
   "version": "1.0.1",
   "description": "Website testing",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncatestify/cypressio-base.git"
+    "url": "git+git@github.com:ncatestify/cypress-magento-plugin.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ncatestify/cypressio-base/issues"
+    "url": "https://github.com/ncatestify/cypress-magento-plugin/issues"
   },
-  "homepage": "https://github.com/ncatestify/cypressio-base#readme",
+  "homepage": "https://github.com/ncatestify/cypress-magento-plugin/issues#readme",
   "dependencies": {
     "cypress-ncatestify-plugin": "^2.0.8"
   },
