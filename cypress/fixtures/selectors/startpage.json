@@ -1,4 +1,5 @@
 {
+  "logoSelector": ".logo img",
   "categoryItems": ".category-item",
   "productItems": ".product-item",
   "welcomeMessage": "[class='greet welcome']",
